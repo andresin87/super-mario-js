@@ -6,4 +6,4 @@
  * Description: The description here
  */
 
-export const loadLevel = name => fetch(`/levels/${name}.json`).then(r => r.json());
+export const loadLevel = name => fetch(`./levels/${name}.json`).then(r => r.json());

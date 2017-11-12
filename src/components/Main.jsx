@@ -5,8 +5,6 @@ import React from 'react';
 
 import App from './App';
 
-let yeomanImage = require('../images/yeoman.png');
-
 class AppComponent extends React.Component {
   render() {
     return (
